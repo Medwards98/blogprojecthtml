@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+.landingpage {
+    background-image: url('akira.gif');
+    background-size: cover;
+}
+
+#menu-bar {
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    position: top;
+    margin-left: 100px;
+    margin-right: 150px;
+  }
+
+  #menu-bar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    list-style-type: none;
+  }
+  
+  li a {
+    display: block;
+    font-family: 'Titillium', sans-serif;
+    font-size: 20px;
+    color: lightslategray;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+.container {
+    text-align: center
+}
+
+#welcome {
+    font-family: 'Notable', sans-serif;
+    color:white;
+    font-size: 80px
+}
+
+.container {
+    font-family: 'Notable', sans-serif;
+    color:white;
+    font-size: 40px
+}
+
+.button {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 500px;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+}
+img, figure {
+    max-width: 100%;
+}
+
+#aboutme {
+    background-image: url(spaceshuttle.jpg);
+    color: white;
+    font-family: 'Notable', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+#page2 {
+    background-image: url(spaceman.jpeg);
+    background-repeat: no-repeat;
+    background-color: #f4f409;
+}
+
+.unit1 {
+    text-align: center;
+    font-display: center;
+    flex-direction: column;
+    flex-flow: wrap;
+    margin-top: 100px;
+    margin-left: 150x;
+    margin-right: 500px;
+}
+
+.unit1 {
+    color: black;
+}
+
+.trello {
+    color: black;
+}
+
+.ucontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: left;
+    width: 715px;
+    margin: auto;
+}
+
+.ucontainer {
+    color: white;
+  font-family: 'Titillium', sans-serif;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color:coral;
+}
+
+
+  .playcontainer {
+      background-image: url('playstation.gif');
+      background-repeat: no-repeat;
+      background-size: 50% 99%;
+      background-position: right;
+  }
+
+
+  #u1outcome3 {
+      background-image: url(charizard.gif);
+      background-position: bottom right; 
+      background-repeat: no-repeat;
+  }
+
+  .outcome3text {
+      font-family: 'Notable', sans-serif;
+      color: coral;
+      text-align: left;
+      margin-top: 100px;
+      margin-left: 150px;
+      margin-right: 150px;
+  }
+
+  .unit2 {
+      background-image: url(terminal.gif);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-color: black;
+  }
+
+  .unit2font {
+      font-family: 'Notable', sans-serif;
+      text-align: left;
+      margin-top: 150px;
+      margin-left: 150px;
+      margin-right: 150px;
+      color: #04cb04;
+  }
