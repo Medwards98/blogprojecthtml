@@ -12,8 +12,8 @@
     padding: 0px;
     overflow: hidden;
     position: top;
-    margin-left: 100px;
     margin-right: 150px;
+    margin-left: 150px;
   }
 
   #menu-bar {
@@ -31,7 +31,7 @@
     display: block;
     font-family: 'Titillium', sans-serif;
     font-size: 20px;
-    color: lightslategray;
+    color:lightcoral;
     text-align: center;
     padding: 18px 18px;
     text-decoration: none;
@@ -72,15 +72,22 @@ img, figure {
     max-width: 100%;
 }
 
-#aboutme {
-    background-image: url(spaceshuttle.jpg);
-    color: white;
+ #aboutme {
+    background-image: url('playstation.gif');
+    background-size: cover;
     font-family: 'Notable', sans-serif;
     text-align: center;
     margin-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
 }
+
+ .hello {
+    color: lightsalmon;
+    background-color: rgba(0,0,0,0.8);
+    margin: 30px;
+    padding: 10px;
+ }
 
 
 #page2 {
@@ -107,59 +114,66 @@ img, figure {
     color: black;
 }
 
-.ucontainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    float: left;
-    width: 715px;
-    margin: auto;
-}
-
-.ucontainer {
+ .playcontainer {
     color: white;
   font-family: 'Titillium', sans-serif;
   text-align: center;
-  flex-wrap: wrap;
-  background-color:coral;
-}
+  background-image: url('packman.gif');
+    background-position: contain;
+  }
 
-
-  .playcontainer {
-      background-image: url('playstation.gif');
-      background-repeat: no-repeat;
-      background-size: 50% 99%;
-      background-position: right;
+  .ucontainer {
+      position: center;
+      background: black;
+      margin-top: 80px;
+      margin-left: 150px;
+      margin-right: 150px;
+      border-style: double;
+      border-color: red;
   }
 
 
   #u1outcome3 {
       background-image: url(charizard.gif);
-      background-position: bottom right; 
+      background-position: right; 
       background-repeat: no-repeat;
   }
 
   .outcome3text {
-      font-family: 'Notable', sans-serif;
-      color: coral;
+      font-family: 'Titillium', sans-serif;
+      color: lightcoral;
       text-align: left;
       margin-top: 100px;
       margin-left: 150px;
       margin-right: 150px;
   }
 
-  .unit2 {
-      background-image: url(terminal.gif);
-      background-position: top;
-      background-repeat: no-repeat;
-      background-color: black;
+  .outcome3titles {
+      border-style: solid;
+      border-color: lightblue;
   }
 
-  .unit2font {
-      font-family: 'Notable', sans-serif;
-      text-align: left;
-      margin-top: 150px;
-      margin-left: 150px;
-      margin-right: 150px;
-      color: #04cb04;
+  .unit2 {
+      background-image: url(computer.gif);
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
   }
+
+  .unit2 {
+      font-family: 'Titillium', sans-serif;
+      text-align: center;
+      color: white;
+      margin-top: 100px;
+      background-color: rgba(0,0,0,0.6);
+   margin: 30px;
+   padding: 10px;
+  }
+
+  .unit2text {
+    background-color: rgba(0,0,0,0.5);
+    margin: 30px;
+    padding: 10px;
+  }
+
+ 
