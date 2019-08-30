@@ -94,6 +94,7 @@ img, figure {
     background-image: url(spaceman.jpeg);
     background-repeat: no-repeat;
     background-color: #f4f409;
+    background-attachment: fixed;
 }
 
 .unit1 {
