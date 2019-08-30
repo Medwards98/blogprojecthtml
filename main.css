@@ -99,20 +99,21 @@ img, figure {
 
 .unit1 {
     text-align: center;
-    font-display: center;
     flex-direction: column;
     flex-flow: wrap;
     margin-top: 100px;
-    margin-left: 150x;
     margin-right: 500px;
+    margin-left: 20px;
 }
 
 .unit1 {
+    font-family: 'Titillium', sans-serif;
     color: black;
 }
 
 .trello {
-    color: black;
+    font-family: 'Titillium', sans-serif;
+    color: black; 
 }
 
  .playcontainer {
